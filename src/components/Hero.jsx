@@ -8,7 +8,7 @@ const slides = [
   { id: 4, img: "https://i.pinimg.com/736x/ff/ed/bd/ffedbd1c6de62f65fcd82bee539aa289.jpg" },
 ];
 
-const Hero = () => {
+const Home = () => {
   const [current, setCurrent] = useState(0);
 
   const nextSlide = () => {
@@ -21,6 +21,7 @@ const Hero = () => {
 
   return (
     <section
+    id="home"
       className="relative h-screen w-full flex items-center justify-start overflow-hidden">
        <img
     src="https://images.unsplash.com/photo-1598152642931-bf0e8635fdf8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
@@ -85,4 +86,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;

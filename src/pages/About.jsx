@@ -17,10 +17,10 @@ const About = () => {
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center text-white">
         <h1 className="text-5xl font-bold mb-6">
-          ABOUT <span className="text-yellow-400">SMILE SRI LANKA</span>
+          ABOUT <span className="text-yellow-400">US</span>
         </h1>
         <p className="text-lg text-gray-200 leading-relaxed max-w-3xl mx-auto">
-          Welcome to <span className="text-yellow-400 font-semibold">Smile Sri Lanka</span> — your
+          Welcome to <span className="text-yellow-400 font-semibold">Smile Lanka</span> — your
           ultimate adventure travel partner! We are a passionate team of explorers and travel
           enthusiasts who believe that the best way to experience life is through adventure.
         </p>
@@ -59,7 +59,7 @@ const About = () => {
         </div>
 
         <button className="mt-10 bg-yellow-400 text-black px-8 py-3 rounded-full font-semibold hover:bg-yellow-500 transition">
-          PLAN YOUR ADVENTURE
+          Read More
         </button>
       </div>
     </section>

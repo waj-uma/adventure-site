@@ -57,6 +57,11 @@ const Navbar = () => {
             Contact Us
           </Link>
         </li>
+          <li className="hover:text-yellow-400 cursor-pointer">
+          <Link to="gallary" smooth={true} duration={600} offset={-70}>
+            Gallary
+          </Link>
+        </li>
       </ul>
     </nav>
   );
