@@ -34,10 +34,14 @@ const GalleryUpload = () => {
   };
   return (
     <section 
-    id="gallary"
+    id="memo"
     className="relative min-h-screen bg-gradient-to-br from-black via-gray-900 to-black text-white flex flex-col items-center py-12 px-6 overflow-hidden">
       {/* Title */}
-      <h1 className="text-5xl md:text-7xl font-extrabold mb-12 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-yellow-300 animate-pulse tracking-wider drop-shadow-[0_0_15px_rgba(255,255,100,0.3)]">
+       
+
+      <div className="relative z-10 max-w-6xl mx-auto px-6 text-center text-white">
+       
+      <h1 className="text-5xl font-bold mb-6  text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-yellow-300 animate-pulse tracking-wider drop-shadow-[0_0_15px_rgba(255,255,100,0.3)]">
         Travel Gallery
       </h1>
 
@@ -69,6 +73,7 @@ const GalleryUpload = () => {
       ) : (
         <p className="text-gray-400 mt-6">No images uploaded yet.</p>
       )}
+      </div>
     </section>
   );
 };

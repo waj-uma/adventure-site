@@ -62,6 +62,12 @@ const Navbar = () => {
             Gallery
           </Link>
         </li>
+        <li className="hover:text-yellow-400 cursor-pointer">
+          <Link to="/gallery-upload" className="block h-full w-full">
+           Memories
+          </Link>
+        </li>
+        
       </ul>
     </nav>
   );
