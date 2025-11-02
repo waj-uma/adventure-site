@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -33,33 +33,33 @@ const Navbar = () => {
       {/* Links */}
       <ul className="flex space-x-10 text-sm text-white">
         <li className="hover:text-yellow-400 cursor-pointer">
-          <Link to="home" smooth={true} duration={600} offset={-70}>
+          <Link to="/" className="block h-full w-full">
             Home
           </Link>
         </li>
         <li className="hover:text-yellow-400 cursor-pointer">
-          <Link to="packages" smooth={true} duration={600} offset={-70}>
+          <Link to="/packages" className="block h-full w-full">
             Packages
           </Link>
         </li>
         <li className="hover:text-yellow-400 cursor-pointer">
-          <Link to="about" smooth={true} duration={600} offset={-70}>
+          <Link to="/about" className="block h-full w-full">
             About Us
           </Link>
         </li>
         <li className="hover:text-yellow-400 cursor-pointer">
-          <Link to="destinations" smooth={true} duration={600} offset={-70}>
+          <Link to="/destinations" className="block h-full w-full">
             Destinations
           </Link>
         </li>
         <li className="hover:text-yellow-400 cursor-pointer">
-          <Link to="contac" smooth={true} duration={600} offset={-70}>
+          <Link to="/contact" className="block h-full w-full">
             Contact Us
           </Link>
         </li>
-          <li className="hover:text-yellow-400 cursor-pointer">
-          <Link to="gallary" smooth={true} duration={600} offset={-70}>
-            Gallary
+        <li className="hover:text-yellow-400 cursor-pointer">
+          <Link to="/gallery" className="block h-full w-full">
+            Gallery
           </Link>
         </li>
       </ul>

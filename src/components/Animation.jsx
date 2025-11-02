@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import videoBg from "../assest/ani.mp4"; // ✅ make sure the path and spelling are correct
+import videoBg from "../assest/ani.mp4"; 
 
 const Animation = ({ onFinish }) => {
   const [showText, setShowText] = useState(false);
